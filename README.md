@@ -34,7 +34,7 @@
 ### DSH
 
 ```bash
-git clone https://github.com/<you>/wxapkg-reverse.git ~/.dsh/skills/miniprogram-reverse
+git clone https://github.com/haohaomin/wxapkg-reverse.git ~/.dsh/skills/miniprogram-reverse
 ```
 
 `~/.dsh/skills` 是用户级技能根（rank 400）。`unrestricted` preset 由 `includeDefaultRoots: true` 覆盖，`redteam` preset 由 `customSkillDirs` 里的 `dshHomePath('skills')` 覆盖 —— **两个都能直接扫到，不用改配置**。
@@ -42,7 +42,7 @@ git clone https://github.com/<you>/wxapkg-reverse.git ~/.dsh/skills/miniprogram-
 ### Windows
 
 ```powershell
-git clone https://github.com/<you>/wxapkg-reverse.git "$env:USERPROFILE\.dsh\skills\miniprogram-reverse"
+git clone https://github.com/haohaomin/wxapkg-reverse.git "$env:USERPROFILE\.dsh\skills\miniprogram-reverse"
 ```
 
 注意用户目录名常与主机名不一致（比如主机 `renhao`、用户 `renha`），先 `whoami` 确认。
