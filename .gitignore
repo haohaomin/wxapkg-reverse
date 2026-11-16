@@ -4,3 +4,5 @@ out/
 dump/
 *.wxapkg
 __pycache__/
+examples/sample/
+examples/out/
